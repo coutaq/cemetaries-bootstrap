@@ -22,25 +22,205 @@
         </li>
     </ul>
 </nav>
-<div class="d-flex p-2 bd-highlight" style="background-color: #21263b;">
-    <div class="cards bg-danger m-2" style="width: 18rem;">
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card  title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    <div class="cards bg-danger m-2" style="width: 18rem;">
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-</div>
+<div id="developer_note" class="d-flex flex-wrap p-2 bd-highlight" style=""></div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+    const data = [
+        {
+            "name": "Новодевичье кладбщие",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Ново-игнатьевское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Игнатьевское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Гладковское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Щегловское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище №11",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Петровское-1",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище шахты №29",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище пос. Лидиевка",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище на Донецком море",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище на Полежаково",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Южное кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище шахты №6 \"Красная звезда\"",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище пос. Грабари",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Лозовское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище на шахте Челюскинцев",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Трудовское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Лозовское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Григорьевское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Первомайское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище «Пролетар»",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище посёлка Красный Пахарь",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище немецких военнопленных",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Петровское-2",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Красногоровское городское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище посёлка Авдотьино",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище посёлка Ларино",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище шахты №6 «Капитальная»",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Алексеевское (Чулковское) кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Старое Алексеевское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Мушкетовское кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище «Казачье»",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище «Донецкое море»",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище шахты № 29",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Южное кладбище",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        },
+        {
+            "name": "Кладбище посёлка Красный Пахарь",
+            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+            "link": "#"
+        }
+    ];
+
+    for (var i = 0; i < data.length; i++) {
+        // alert(data[i].image)
+        $("#developer_note").append(
+            "<div class=\"cards bg-light m-4 shadow \" style=\"width: 10vw;\">" +
+                "<div class=\"card-body\">" +
+                    "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
+                    "<h5 class=\"card-title\">"+data[i].name+"</h5>" +
+                    "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
+                "</div>" +
+            "</div>");
+    }
+</script>
 </body>
 </html>
