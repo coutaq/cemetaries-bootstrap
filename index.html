@@ -78,14 +78,14 @@
             for (var i = 0; i < data.length; i++) {
                 if(filter($(this).val().toLowerCase(), data[i].name.toLowerCase())){
                     $("#developer_note").append(
-                        "<div class=\"cards bg-light m-4 shadow text-center\">" +
-                            "<div class=\"flex-column d-inline-flex\" style=\"min-width: 100%;\">" +
-                                "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
-                                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
-                                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
-                                     "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
-                                "</div>" +
-                            "</div>" +
+                        "<div class=\"cards mx-auto mx-sm-auto mx-sm-4 m-4\" style=\"\">" +
+                        "<div class=\"flex-column d-inline-flex justify-content-center bg-light shadow\" style=\"min-width: 15rem;\">" +
+                        "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\" style=\"height: 10rem;max-width: 20rem\">"+
+                        "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
+                        "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
+                        "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
+                        "</div>" +
+                        "</div>" +
                         "</div>");
                 }
             }
