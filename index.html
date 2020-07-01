@@ -9,16 +9,19 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body style="background-color: #0C192F;">
-<nav id="topbar" class="fixed-top navbar navbar-expand-sm shadow-lg" style="background-color: #05121B;">
-    <div class="d-flex align-self-baseline" style="width: 100%">
+<nav id="topbar" class="fixed-top navbar navbar-expand-lg navbar-dark" style="background-color: #05121B;">
         <a id="linkTop" class="navbar-brand" href="#" style="font-size: 2vw">
             <img src="assets/skeleton.gif" width="50rem" height="50rem" class="d-inline-block align-baseline" alt="">
             Bootstrap
         </a>
-        <div class="p-3 ml-auto">
-            <input id="searchBar" class="form-control h1" type="text" placeholder="Поиск" aria-label="Search">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible" aria-controls="collapsible" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-3" id="collapsible">
+            <div class="d-flex" style="width: 100%">
+                <input id="searchBar" class="form-control h1 ml-auto" type="text" placeholder="Поиск" aria-label="Search" style="width: 20rem">
+            </div>
         </div>
-    </div>
 </nav>
 
 <div id="developer_note" class="d-flex flex-wrap p-2 bd-highlight justify-content-around" style=""></div>
