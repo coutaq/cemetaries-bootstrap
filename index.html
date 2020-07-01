@@ -14,7 +14,7 @@
             <img src="assets/skeleton.gif" width="50rem" height="50rem" class="d-inline-block align-baseline" alt="">
             Bootstrap
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible" aria-controls="collapsible" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="hamburger"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible" aria-controls="collapsible" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse p-3" id="collapsible">
@@ -33,6 +33,10 @@
 </script>
 <script>
     $("#developer_note").css("margin-top", $("#topbar").height());
+    $("hamburger").click(function () {
+        $("#developer_note").css("margin-top", $("#topbar").height());
+        }
+    )
     function scrollTop() {
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
