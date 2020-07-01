@@ -2,6 +2,13 @@
 .card, .btn, .form-control { border-radius: 0; }
 @media screen and (min-width: 769px) {
     #searchBar{
-        width: 20rem
+        width: 20rem;
+        margin-left: auto;
     }
 }
+@media screen and (max-width: 768px) {
+    #searchBar{
+        margin: auto;
+    }
+}
+
