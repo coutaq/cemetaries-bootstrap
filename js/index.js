@@ -8,6 +8,7 @@ $('#collapsible').on('hidden.bs.collapse', function () {
 function scrollTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
+$(".btn.btn-primary").click(function(){sendEmail(); return false; });
 $('#linkTop').click(function(){scrollTop(); return false; });
 let data = new Array();
 function loadCemeteries() {
@@ -32,11 +33,18 @@ function append(cemetery) {
         "<img src=\""+cemetery.image+"\"class=\"card-img-top m-0\" style=\"height: 12rem; width: 100%\">"+
         "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+cemetery.name+"</div>" +
         "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
-        "<a href=\""+cemetery.link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
+        "<a class=\"btn btn-primary\" data-toggle=\"modal\" href=\""+cemetery.link+"\" >Текст кнопки</a>" +
         "</div>" +
         "</div>" +
         "</div>");
 }
+function createModals(modal) {
+    $("#developer_note").after(
+        "<p>Test Text</p>"
+    );
+}
+
+createModals(undefined)
 function filter(text, cemetery) {
     return cemetery.includes(text);
 }

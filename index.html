@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cemeteries</title>
+    <title>Название</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body style="background-color: #0C192F;">
+
 <nav id="topbar" class="fixed-top navbar navbar-expand-lg navbar-dark" style="background-color: #05121B;">
         <a id="linkTop" class="navbar-brand" href="#" style="font-size: 2rem">
             <img src="assets/skeleton.gif" width="50rem" height="50rem" class="d-inline-block align-baseline" alt="">
-            Bootstrap
+            Название
         </a>
         <button id="hamburger"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible" aria-controls="collapsible" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,8 +27,35 @@
 
 <div id="developer_note" class="d-flex flex-wrap p-2 bd-highlight flex-column flex-sm-row justify-content-center justify-content-sm-around align-middle" style=""></div>
 
+<div class="modal fade" id="modalName" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <img src="assets/images/novodev.jpg" class="img-fluid ml-auto" alt="Responsive image" style="width: 25%;">
+                <h1 class="align-self-center pl-2 mr-auto">Название</h1>
+            </div>
+            <div class="modal-body d-flex justify-content-center flex-column">
+                <img src="assets/images/novodev.jpg" class="img-fluid ml-auto" alt="Responsive image" style="width: 25%;">
+                <h1 class="align-self-center pl-2 mr-auto">Название</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
+<script src="js/order.js"></script>
 </body>
 </html>
