@@ -4,147 +4,147 @@
     {
       "name": "Новодевичье кладбище",
       "image": "assets/images/novodev.jpg",
-      "link": "#modalName"
+      "link": "modalNovodev"
     },
     {
       "name": "Ново-игнатьевское кладбище",
       "image": "assets/images/novo-ignat.jpg",
-      "link": "#"
+      "link": "modalNovo-ignat"
     },
     {
       "name": "Игнатьевское кладбище",
       "image": "assets/images/ignat.jpg",
-      "link": "#"
+      "link": "modalIgnat"
     },
     {
       "name": "Гладковское кладбище",
       "image": "assets/images/gladk.jpg",
-      "link": "#"
+      "link": "modalGladk"
     },
     {
       "name": "Щегловское кладбище",
       "image": "assets/images/scheglov.jpg",
-      "link": "#"
+      "link": "modalScheglov"
     },
     {
       "name": "Кладбище №11",
       "image": "assets/images/eleventh.jpg",
-      "link": "#"
+      "link": "modalEleventh"
     },
     {
       "name": "Петровское-1",
       "image": "assets/images/petrov-1.jpg",
-      "link": "#"
+      "link": "modalPetrov-1"
     },
     {
       "name": "Кладбище шахты №29",
       "image": "assets/images/29thmine.jpg",
-      "link": "#"
+      "link": "modal29thmine"
     },
     {
       "name": "Кладбище пос. Лидиевка",
       "image": "assets/images/lidievka.jpg",
-      "link": "#"
+      "link": "modalLidievka"
     },
     {
       "name": "Кладбище на Донецком море",
       "image": "assets/images/donetsksea.jpg",
-      "link": "#"
+      "link": "modalDonetsksea"
     },
     {
       "name": "Кладбище на Полежаково",
       "image": "assets/images/polesh.jpg",
-      "link": "#"
+      "link": "modalPolesh"
     },
     {
       "name": "Южное кладбище",
       "image": "assets/images/south.jpg",
-      "link": "#"
+      "link": "modalSouth"
     },
     {
       "name": "Кладбище шахты №6 \"Красная звезда\"",
       "image": "assets/images/redstarmine.jpg",
-      "link": "#"
+      "link": "modalRedstarmine"
     },
     {
       "name": "Кладбище пос. Грабари",
       "image": "assets/images/grabari.jpg",
-      "link": "#"
+      "link": "modalGrabari"
     },
     {
       "name": "Лозовское кладбище",
       "image": "assets/images/lozovoe.jpg",
-      "link": "#"
+      "link": "modalLozovoe"
     },
     {
       "name": "Кладбище на шахте Челюскинцев",
       "image": "assets/images/chellusk.jpg",
-      "link": "#"
+      "link": "modalChellusk"
     },
     {
       "name": "Трудовское кладбище",
       "image": "assets/images/trud.jpg",
-      "link": "#"
+      "link": "modalTrud"
     },
     {
       "name": "Григорьевское кладбище",
       "image": "assets/images/grig.jpg",
-      "link": "#"
+      "link": "modalGrig"
     },
     {
       "name": "Первомайское кладбище",
       "image": "assets/images/pervomay.jpg",
-      "link": "#"
+      "link": "modalPervomay"
     },
     {
       "name": "Кладбище «Пролетар»",
       "image": "assets/images/proletar.jpg",
-      "link": "#"
+      "link": "modalProletar"
     },
     {
       "name": "Кладбище посёлка Красный Пахарь",
       "image": "assets/images/redplowman.jpg",
-      "link": "#"
+      "link": "modalRedplowman"
     },
     {
       "name": "Кладбище немецких военнопленных",
       "image": "assets/images/germans.jpg",
-      "link": "#"
+      "link": "modalGermans"
     },
     {
       "name": "Петровское-2",
       "image": "assets/images/petrov-2.jpg",
-      "link": "#"
+      "link": "modalPetrov-2"
     },
     {
       "name": "Кладбище посёлка Авдотьино",
       "image": "assets/images/avdot.jpg",
-      "link": "#"
+      "link": "modalAvdot"
     },
     {
       "name": "Кладбище посёлка Ларино",
       "image": "assets/images/larino.jpg",
-      "link": "#"
+      "link": "modalLarino"
     },
     {
       "name": "Кладбище шахты №6 «Капитальная»",
       "image": "assets/images/6thcapital.jpg",
-      "link": "#"
+      "link": "modal6thcapital"
     },
     {
       "name": "Алексеевское (Чулковское) кладбище",
       "image": "assets/images/chulk.jpg",
-      "link": "#"
+      "link": "modalChulk"
     },
     {
       "name": "Старое Алексеевское кладбище",
       "image": "assets/images/oldalex.jpg",
-      "link": "#"
+      "link": "modalOldalex"
     },
     {
       "name": "Мушкетовское кладбище",
       "image": "assets/images/mushket.jpg",
-      "link": "#"
+      "link": "modalMushket"
     }
   ]
 }
