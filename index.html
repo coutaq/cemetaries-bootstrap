@@ -33,10 +33,12 @@
 </script>
 <script>
     $("#developer_note").css("margin-top", $("#topbar").height());
-    $("#hamburger").click(function () {
+    $('#collapsible').on('shown.bs.collapse', function () {
         $("#developer_note").css("margin-top", $("#topbar").height());
-        }
-    )
+    })
+    $('#collapsible').on('hidden.bs.collapse', function () {
+        $("#developer_note").css("margin-top", $("#topbar").height());
+    })
     function scrollTop() {
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
