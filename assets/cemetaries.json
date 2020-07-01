@@ -1,0 +1,150 @@
+{
+  "cemeteries":
+  [
+    {
+      "name": "Новодевичье кладбище",
+      "image": "assets/images/novodev.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Ново-игнатьевское кладбище",
+      "image": "assets/images/novo-ignat.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Игнатьевское кладбище",
+      "image": "assets/images/ignat.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Гладковское кладбище",
+      "image": "assets/images/gladk.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Щегловское кладбище",
+      "image": "assets/images/scheglov.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище №11",
+      "image": "assets/images/eleventh.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Петровское-1",
+      "image": "assets/images/petrov-1.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище шахты №29",
+      "image": "assets/images/29thmine.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище пос. Лидиевка",
+      "image": "assets/images/lidievka.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище на Донецком море",
+      "image": "assets/images/donetsksea.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище на Полежаково",
+      "image": "assets/images/polesh.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Южное кладбище",
+      "image": "assets/images/south.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище шахты №6 \"Красная звезда\"",
+      "image": "assets/images/redstarmine.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище пос. Грабари",
+      "image": "assets/images/grabari.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Лозовское кладбище",
+      "image": "assets/images/lozovoe.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище на шахте Челюскинцев",
+      "image": "assets/images/chellusk.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Трудовское кладбище",
+      "image": "assets/images/trud.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Григорьевское кладбище",
+      "image": "assets/images/grig.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Первомайское кладбище",
+      "image": "assets/images/pervomay.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище «Пролетар»",
+      "image": "assets/images/proletar.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище посёлка Красный Пахарь",
+      "image": "assets/images/redplowman.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище немецких военнопленных",
+      "image": "assets/images/germans.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Петровское-2",
+      "image": "assets/images/petrov-2.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище посёлка Авдотьино",
+      "image": "assets/images/avdot.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище посёлка Ларино",
+      "image": "assets/images/larino.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Кладбище шахты №6 «Капитальная»",
+      "image": "assets/images/6thcapital.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Алексеевское (Чулковское) кладбище",
+      "image": "assets/images/chulk.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Старое Алексеевское кладбище",
+      "image": "assets/images/oldalex.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Мушкетовское кладбище",
+      "image": "assets/images/mushket.jpg",
+      "link": "#"
+    }
+  ]
+}

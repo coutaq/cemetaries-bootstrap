@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Template</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Cemeteries</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
-<body>
-<nav id="topbar" class="fixed-top navbar navbar-expand-sm shadow-lg" style="background-color: #17172e;">
-    <div class="d-flex justify-content align-self-baseline">
-        <div class="mr-auto nav-item p-2">
-            <a id="linkTop" class="nav-link" href="#">Кладбища</a>
+<body style="background-color: #0C192F;">
+<nav id="topbar" class="fixed-top navbar navbar-expand-sm shadow-lg" style="background-color: #05121B;">
+    <div class="d-flex align-self-baseline" style="width: 100%">
+        <div id="linkTop" style="cursor: pointer;" onclick="" class="mr-auto nav-item p-3 d-inline-flex justify-content align-self-baseline">
+            <img src="assets/skeleton.gif" alt="Skeleton" style="width: 4rem;">
+            <h2 style="color:whitesmoke">Название сайта</h2>
         </div>
-        <div class=" p-2">
-            <input id="searchBar" class="form-control" type="text" placeholder="Поиск" aria-label="Search">
+        <div class="p-3 ml-auto">
+            <input id="searchBar" class="form-control h1" type="text" placeholder="Поиск" aria-label="Search">
         </div>
     </div>
 </nav>
+
 <div id="developer_note" class="d-flex flex-wrap p-2 bd-highlight justify-content-around" style=""></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -32,205 +34,34 @@
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
     $('#linkTop').click(function(){scrollTop(); return false; });
-    const data = [
-        {
-            "name": "Новодевичье кладбщие",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Ново-игнатьевское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Игнатьевское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Гладковское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Щегловское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище №11",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Петровское-1",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище шахты №29",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище пос. Лидиевка",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище на Донецком море",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище на Полежаково",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Южное кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище шахты №6 \"Красная звезда\"",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище пос. Грабари",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Лозовское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище на шахте Челюскинцев",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Трудовское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Лозовское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Григорьевское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Первомайское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище «Пролетар»",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище посёлка Красный Пахарь",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище немецких военнопленных",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Петровское-2",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Красногоровское городское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище посёлка Авдотьино",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище посёлка Ларино",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище шахты №6 «Капитальная»",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Алексеевское (Чулковское) кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Старое Алексеевское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Мушкетовское кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище «Казачье»",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище «Донецкое море»",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище шахты № 29",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Южное кладбище",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        },
-        {
-            "name": "Кладбище посёлка Красный Пахарь",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
-            "link": "#"
-        }
-    ];
+    let data = new Array();
+    function loadQuestions() {
+        $.getJSON('assets/cemetaries.json', function (json) {
+            data = json.cemeteries;
+        })
+            .error(function() {
+                console.log('error: JSON not loaded');
+            })
+            .done(function() {
+                console.log( "JSON loaded!" );
+                for (var i = 0; i < data.length; i++) {
+                    var text =  $("#searchBar").text()
+                    $("#developer_note").append(
+                        "<div class=\"cards bg-light m-4 shadow \" style=\"width: 13vw;\">" +
+                            "<div class=\"flex-column d-inline-flex\" style=\"width: 100%;\">" +
+                                "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
+                                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
+                                    "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
+                                      "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
+                                    "</div>" +
+                            "</div>" +
+                        "</div>");
+                }
+            });
+    }
+    loadQuestions()
     function filter(text, cemetery) {
         return cemetery.includes(text);
-    }
-    for (var i = 0; i < data.length; i++) {
-        // alert(data[i].image)
-        var text =  $("#searchBar").text()
-            $("#developer_note").append(
-                "<div class=\"cards bg-light m-4 shadow \" style=\"width: 13vw;\">" +
-                "<div class=\"flex-column d-inline-flex\" style=\"width: 100%;\">" +
-                "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
-                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
-                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
-                "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
-                "</div>" +
-                "</div>" +
-                "</div>");
-
     }
     $(document).ready(function(){
         $("#searchBar").on("input", function(){
@@ -239,13 +70,13 @@
                 if(filter($(this).val().toLowerCase(), data[i].name.toLowerCase())){
                     $("#developer_note").append(
                         "<div class=\"cards bg-light m-4 shadow \" style=\"width: 13vw;\">" +
-                        "<div class=\"flex-column d-inline-flex\" style=\"width: 100%;\">" +
-                        "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
-                        "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
-                        "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
-                        "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
-                        "</div>" +
-                        "</div>" +
+                            "<div class=\"flex-column d-inline-flex\" style=\"width: 100%;\">" +
+                                "<img src=\""+data[i].image+"\"class=\"card-img-top m-0\">"+
+                                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight\">"+data[i].name+"</div>" +
+                                "<div class=\"p-2 flex-fill flex-grow-1 bd-highlight mb-auto\">" +
+                                     "<a href=\""+data[i].link+" \" class=\"btn btn-primary\" >Текст кнопки</a>" +
+                                "</div>" +
+                            "</div>" +
                         "</div>");
                 }
             }
